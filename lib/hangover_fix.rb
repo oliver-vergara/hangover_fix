@@ -1,5 +1,9 @@
 require "hangover_fix/version"
 
 module HangoverFix
-  # Your code goes here...
+  class Fixer
+    def fix
+      `say glog glog glog glog glog  aaaaaahhhhh`
+    end
+  end
 end
